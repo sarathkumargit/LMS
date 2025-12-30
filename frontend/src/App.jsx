@@ -1,8 +1,8 @@
 import { useState } from 'react'
+import { Routes, Route } from 'react-router-dom'
+import Navbar from './components/NavBar'
+import { Home } from 'lucide-react'
 
-import { Route,Routes } from 'react-router-dom'
-import Navbar from './components/Navbar'
-import Home from './pages/Home'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -12,10 +12,8 @@ function App() {
      <Navbar />
      <Routes>
       <Route path="/" element={<Home />}/>
-      
-      </Routes>
-      
-      </>
+     </Routes>
+     </>
   )
 }
 
