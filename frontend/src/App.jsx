@@ -1,11 +1,11 @@
 import { useState } from 'react'
 import { Routes, Route } from 'react-router-dom'
 import Navbar from './components/NavBar'
-import { Home } from 'lucide-react'
+import Home  from './pages/Home'
 
 
 function App() {
-  const [count, setCount] = useState(0)
+  
 
   return (
      <>
